@@ -61,33 +61,58 @@
 
   </head>
 
-  <body>
-
-    <header>
-      <a href="#"><img src="assets/img/maison.png" alt="logo"></a>
-      <h1>La maison de l'architecte</h1>        
-    </header>
-
-    <nav>
-      <div id="left">
-        <a href="#"><img src="assets/img/city1.jpg" alt="Nos réalisations"></a>
+  <body> 
+    <div class="container-fluid  text-center">
+      <div class="row">
+        <header class="jumbotron">
+          <div class="row">
+            <div class="container">
+              <a href="#" class="hidden-xs pull-left">
+                <img src="assets/img/maison.png" alt="logo" id="logo">
+              </a>
+              <h1 id="title" class="col-sm-10">La maison de l'architecte</h1>
+            </div>
+          </div>
+        </header>
+        <nav>
+          <div class="row">
+            <div class="col-lg-8" id="left">
+              <a href="#">
+                <img src="assets/img/city1.jpg" alt="Nos réalisations">
+              </a>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-sm-6" id="side1">
+                <a href="#">
+                  <img src="assets/img/side1.jpg" alt="Nos projets">
+                </a>
+              </div>
+              <div class="col-lg-4 col-sm-6" id="side2">
+                <a href="#">
+                  <img src="assets/img/side2.jpg" alt="Notre ambition">
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <footer>
+          <a class="btn btn-primary" href="#">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+          <a class="btn btn-primary" href="#">
+            <i class="fa fa-facebook fa-2x"></i>
+          </a>
+          <a class="btn btn-primary" href="#">
+            <i class="fa fa-google-plus fa-2x"></i>
+          </a>
+          <a class="btn btn-primary" href="#">
+            <i class="fa fa-flickr fa-2x"></i>
+          </a>
+          <a class="btn btn-primary" href="#">
+            <i class="fa fa-spotify fa-2x"></i>
+          </a>
+        </footer>
       </div>
-      <div id="side1">
-        <a href="#"><img src="assets/img/side1.jpg" alt="Nos projets"></a>
-      </div>
-      <div id="side2">
-        <a href="#"><img src="assets/img/side2.jpg" alt="Notre ambition"></a>
-      </div>
-    </nav>
-
-    <footer>
-      <a class="btn btn-primary" href="#"><i class="fa fa-twitter fa-2x"></i></a>
-      <a class="btn btn-primary" href="#"><i class="fa fa-facebook fa-2x"></i></a>
-      <a class="btn btn-primary" href="#"><i class="fa fa-google-plus fa-2x"></i></a>
-      <a class="btn btn-primary" href="#"><i class="fa fa-flickr fa-2x"></i></a>
-      <a class="btn btn-primary" href="#"><i class="fa fa-spotify fa-2x"></i></a>
-    </footer>
-
+    </div>
   </body>
-
 </html>
